@@ -32,4 +32,6 @@ for produto, preco in zip(html_nome, html_preco):
 
 df_produtos = pd.DataFrame(lista_de_produtos_e_precos, columns=['Produto', 'Preço'])
 print(df_produtos)
+print()
+print(df_produtos.describe())
 
